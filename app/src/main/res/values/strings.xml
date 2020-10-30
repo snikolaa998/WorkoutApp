@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WorkoutApp</string>
+    <string name="main_image">Main Image</string>
+    <string name="start">START</string>
+    <string name="get_ready_for">GET READY FOR</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="you_have_finished_the_workout">You have finished the workout!</string>
+    <string name="finish">FINISH</string>
+    <string name="textview">TextView</string>
+</resources>

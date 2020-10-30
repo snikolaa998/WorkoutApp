@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#fff"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Are you sure?"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="This will stop your workout. You\'ve come this far, are you sure you want to quit?"
+        android:textColor="#212121"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_custom_dialog_yes"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="YES"
+            android:background="@drawable/button_radius_dialog"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/btn_custom_dialog_no"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="NO"
+            android:background="@drawable/button_radius_dialog"
+            android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+</LinearLayout>
